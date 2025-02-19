@@ -1,5 +1,5 @@
 {
-  "name": "@astrojs/starlight",
+  "name": "@pelagornis/page",
   "version": "0.32.0",
   "description": "Build beautiful, high-performance documentation websites with Astro",
   "scripts": {
@@ -15,7 +15,6 @@
     "withastro",
     "astro-integration"
   ],
-  "author": "Chris Swithinbank <swithinbank@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
