@@ -1,6 +1,6 @@
 import { defineCollection } from 'astro:content';
-import { docsLoader } from '@astrojs/starlight/loaders';
-import { docsSchema } from '@astrojs/starlight/schema';
+import { docsLoader } from '@pelagornis/page/loaders';
+import { docsSchema } from '@pelagornis/page/schema';
 
 export const collections = {
 	docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),

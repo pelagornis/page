@@ -1,16 +1,14 @@
 {
-  "name": "@astrojs/starlight-markdoc",
+  "name": "@pelagornis/page-markdoc",
   "version": "0.2.0",
-  "description": "Markdoc preset for the Starlight documentation theme for Astro",
-  "author": "Chris Swithinbank <swithinbank@gmail.com>",
+  "description": "Markdoc preset for the Page documentation theme for Pelagornis",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/withastro/starlight",
+    "url": "https://github.com/pelagornis/page",
     "directory": "packages/markdoc"
   },
-  "bugs": "https://github.com/withastro/starlight/issues",
-  "homepage": "https://starlight.astro.build",
+  "bugs": "https://github.com/pelagornis/page/issues",
   "type": "module",
   "exports": {
     ".": "./index.mjs",
@@ -18,12 +16,12 @@
   },
   "devDependencies": {
     "@astrojs/markdoc": "^0.12.4",
-    "@astrojs/starlight": "workspace:*",
+    "@pelagornis/page": "workspace:*",
     "vitest": "^3.0.5"
   },
   "peerDependencies": {
     "@astrojs/markdoc": "^0.12.1",
-    "@astrojs/starlight": ">=0.30.0"
+    "@pelagornis/page": ">=0.30.0"
   },
   "publishConfig": {
     "provenance": true

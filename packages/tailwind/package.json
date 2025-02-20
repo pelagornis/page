@@ -1,16 +1,14 @@
 {
-  "name": "@astrojs/starlight-tailwind",
+  "name": "@pelagornis/packages-tailwind",
   "version": "3.0.0",
-  "description": "Tailwind CSS plugin for the Starlight documentation theme for Astro",
-  "author": "Chris Swithinbank <swithinbank@gmail.com>",
+  "description": "Tailwind CSS plugin for the Page documentation theme for Pelagornis",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/withastro/starlight",
+    "url": "https://github.com/pelagornis/page",
     "directory": "packages/tailwind"
   },
-  "bugs": "https://github.com/withastro/starlight/issues",
-  "homepage": "https://starlight.astro.build",
+  "bugs": "https://github.com/pelagornis/page/issues",
   "type": "module",
   "files": [
     "index.ts"
@@ -29,7 +27,7 @@
     "vitest": "^3.0.5"
   },
   "peerDependencies": {
-    "@astrojs/starlight": ">=0.30.0",
+    "@pelagornis/page": ">=0.30.0",
     "@astrojs/tailwind": "^5.1.3",
     "tailwindcss": "^3.3.3"
   },

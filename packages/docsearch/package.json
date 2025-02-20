@@ -1,16 +1,14 @@
 {
-  "name": "@astrojs/starlight-docsearch",
+  "name": "@pelagornis/page-docsearch",
   "version": "0.6.0",
-  "description": "Algolia DocSearch plugin for the Starlight documentation theme for Astro",
-  "author": "Chris Swithinbank <swithinbank@gmail.com>",
+  "description": "Algolia DocSearch plugin for the Page documentation theme for Pelagornis",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/withastro/starlight",
+    "url": "https://github.com/pelagornis/page",
     "directory": "packages/docsearch"
   },
-  "bugs": "https://github.com/withastro/starlight/issues",
-  "homepage": "https://starlight.astro.build",
+  "bugs": "https://github.com/pelagornis/page/issues",
   "type": "module",
   "files": [
     "index.ts",
@@ -25,14 +23,14 @@
     "./schema": "./schema.ts"
   },
   "peerDependencies": {
-    "@astrojs/starlight": ">=0.32.0"
+    "@pelagornis/page": ">=0.32.0"
   },
   "dependencies": {
     "@docsearch/css": "^3.6.0",
     "@docsearch/js": "^3.6.0"
   },
   "devDependencies": {
-    "@astrojs/starlight": "workspace:*"
+    "@pelagornis/page": "workspace:*"
   },
   "publishConfig": {
     "provenance": true

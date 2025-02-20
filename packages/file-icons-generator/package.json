@@ -1,7 +1,7 @@
 {
-  "name": "starlight-file-icons-generator",
+  "name": "page-file-icons-generator",
   "version": "0.1.0",
-  "description": "Generates Starlight file icons based on the Seti UI theme",
+  "description": "Generates Page file icons based on the Seti UI theme",
   "private": true,
   "scripts": {
     "build": "tsx ."
